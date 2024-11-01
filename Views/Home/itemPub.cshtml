@@ -1,0 +1,20 @@
+﻿@model IEnumerable<BookStore.Models.SACH>
+@{
+    ViewBag.Title = "itemPub";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="text-align:center" ; color="red">Sach theo NXB</h3>
+<div>
+    @foreach (var item in Model)
+    {
+            <a href="@Url.Action("Details", "Home", new {id = item.Masach})"></a>
+            <img src="~/image/templatemo_image_03.jpg" />
+            <div>
+                <br />
+                <h4>@item.Tensach</h4>
+
+            </div>
+    }
+</div>
+

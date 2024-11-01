@@ -1,0 +1,39 @@
+﻿@model BookStore.Models.SACH
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    h2 {
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Datmua a {
+        clear: both;
+        background-color: red;
+        color: white;
+        width: 120px;
+        height: 35px;
+        display: block;
+        float: right;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+        #Datmua a:hover {
+            background-color: gray;
+            color: red;
+        }
+</style>
+<h2>Details</h2>
+<img src="~/image/templatemo_image_04.jpg" />
+<h2>@Model.Tensach</h2>
+<h2>@Model.Giaban</h2>
+<div id="Datmua"><a href="@Url.Action("AddToCard","ShoppingCard",new {id = Model.Masach})">DAT MUA</a></div>
+
+
