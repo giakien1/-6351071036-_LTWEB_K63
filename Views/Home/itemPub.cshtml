@@ -8,13 +8,15 @@
 <div>
     @foreach (var item in Model)
     {
-            <a href="@Url.Action("Details", "Home", new {id = item.Masach})"></a>
-            <img src="~/image/templatemo_image_03.jpg" />
-            <div>
-                <br />
-                <h4>@item.Tensach</h4>
+        <a href="@Url.Action("Details", "Home", new {id = item.Masach})">
+            <img src="~/image/@item.Anhbia" alt="@item.Tensach" style="width:100px;height:auto;">
+        </a>
+        
+        <div>
+            <br />
+            <h4>@item.Tensach</h4>
 
-            </div>
+        </div>
     }
 </div>
 

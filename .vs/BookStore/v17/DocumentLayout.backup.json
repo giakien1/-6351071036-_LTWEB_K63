@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\publisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\publisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\itempub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\views\\home\\itempub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\itempub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\itemincate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\views\\home\\itemincate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\itemincate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|C:\\Users\\Asus\\source\\repos\\BookStore\\views\\home\\publisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\publisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|c:\\users\\asus\\source\\repos\\bookstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00790B38-5E1F-455C-9A62-315FCFD236E4}|BookStore.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,26 +70,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T09:29:56.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswC0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T09:13:46.251Z",
               "EditorCaption": ""
@@ -109,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Publisher.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\Publisher.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Publisher.cshtml",
@@ -122,39 +122,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "itemInCate.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\itemInCate.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\itemInCate.cshtml",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\itemInCate.cshtml",
               "RelativeToolTip": "Views\\Home\\itemInCate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T09:13:56.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "itemPub.cshtml",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\itemPub.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\itemPub.cshtml",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\BookStore\\Views\\Home\\itemPub.cshtml",
               "RelativeToolTip": "Views\\Home\\itemPub.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T09:01:50.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\BookStore\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\BookStore\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwDIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T07:11:21.862Z",
               "EditorCaption": ""
