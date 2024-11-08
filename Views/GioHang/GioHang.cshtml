@@ -1,0 +1,43 @@
+﻿@using BookStore.Models
+@model List<Giohang>
+
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">THÔNG TIN GIỎ HÀNG</h2>
+
+<table align="center" border="1">
+    <tr style="text-align:center; font-weight:bold;">
+        <td>Tên sách</td>
+        <td>Ảnh bìa</td>
+        <td>Số lượng</td>
+        <td>Đơn giá</td>
+        <td>Thành tiền</td>
+        <td>Hành động</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center; font-weight:bold;">
+            <td>@item.sTensach</td>
+            <td><img src="@Url.Content("~/image/" + @item.sAnhbia)" /></td>
+            <td>@item.iSoluong</td>
+            <td>@String.Format("{0:0,0}", item.dDongia) VNĐ</td>
+            <td>@String.Format("{0:0,0}", item.dThanhtien) VNĐ</td>
+            <td>
+                <a href="@Url.Action("Details", "Home", new { id = item.iMasach })">Chi tiết</a> |
+                @Html.ActionLink("Xóa", "XoaGioHang", new { @id = item.iMasach })
+            </td>
+        </tr>
+    }
+    <tr style="font-weight: bold; text-align:right; color:red">
+        <td colspan="4">Số lượng sách: @ViewBag.Tongsoluong</td>
+        <td colspan="3">Tổng tiền: @String.Format("{0:0,0}", ViewBag.Tongtien) VNĐ</td>
+        
+    </tr>
+    <tr>
+        <td><a href="@Url.Action("Dathang","GioHang")">MUA</a></td>
+    </tr>
+    
+</table>

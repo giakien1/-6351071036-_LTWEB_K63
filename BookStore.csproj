@@ -98,6 +98,7 @@
     <Content Include="Content\Style.css" />
     <Content Include="Global.asax" />
     <Content Include="image\AKIRA.jpg" />
+    <Content Include="image\cart.png" />
     <Content Include="image\templatemo_ads.jpg" />
     <Content Include="image\templatemo_bg.jpg" />
     <Content Include="image\templatemo_btn_01.jpg" />
@@ -125,6 +126,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +141,7 @@
     <Compile Include="Models\DONDATHANG.cs">
       <DependentUpon>QLBansach.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Giohang.cs" />
     <Compile Include="Models\KHACHHANG.cs">
       <DependentUpon>QLBansach.tt</DependentUpon>
     </Compile>
@@ -188,6 +192,12 @@
     <Content Include="Views\Home\itemInCate.cshtml" />
     <Content Include="Views\Home\itemPub.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\Giohangpartial.cshtml" />
+    <Content Include="Views\GioHang\Dathang.cshtml" />
+    <Content Include="Views\GioHang\Xacnhandonhang.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
