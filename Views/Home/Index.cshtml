@@ -1,4 +1,6 @@
-﻿@model IEnumerable<BookStore.Models.SACH>
+﻿@using PagedList.Mvc
+@using BookStore.Models
+@model PagedList.PagedList<SACH>
 
 @{
     ViewBag.Title = "Index";
@@ -21,12 +23,12 @@
             </div>
         </div>
         <div class="templatemo_content_left_section">
-            
+
         </div>
     </div> <!-- end of content left -->
 
     <h1>Top 5 Sách Mới Nhất</h1>
-        
+
     <table>
         <thead>
             <tr>
@@ -54,8 +56,16 @@
             }
         </tbody>
     </table>
-       
-    <a href="subpage.html"><img src="~/image/templatemo_ads.jpg" alt="ads" /></a>
-</div> <!-- end of content right -->
+    Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount;
+    <div class="MenuTrang">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
 
-<div class="cleaner_with_height">&nbsp;</div>
+    <a href="subpage.html"><img src="~/image/templatemo_ads.jpg" alt="ads" /></a>
+    <style>
+        .MenuTrang li {
+            display: inline;
+        }
+    </style>
+
+</div> <!-- end of content right -->

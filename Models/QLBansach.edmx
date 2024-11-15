@@ -4,7 +4,19 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="QLBANSACHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="QLBANSACHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'QLBANSACH.dbo.admin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="admin">
+          <Key>
+            <PropertyRef Name="usernameAd" />
+            <PropertyRef Name="passwordAd" />
+            <PropertyRef Name="name" />
+          </Key>
+          <Property Name="usernameAd" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="passwordAd" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
         <EntityType Name="CHITIETDONTHANG">
           <Key>
             <PropertyRef Name="MaDonHang" />
@@ -182,6 +194,13 @@
           <EntitySet Name="SACH" EntityType="Self.SACH" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TACGIA" EntityType="Self.TACGIA" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="VIETSACH" EntityType="Self.VIETSACH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="admin" EntityType="Self.admin" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[admin].[usernameAd] AS [usernameAd], 
+[admin].[passwordAd] AS [passwordAd], 
+[admin].[name] AS [name]
+FROM [dbo].[admin] AS [admin]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="FK_Chude" Association="Self.FK_Chude">
             <End Role="CHUDE" EntitySet="CHUDE" />
             <End Role="SACH" EntitySet="SACH" />
@@ -211,8 +230,7 @@
             <End Role="VIETSACH" EntitySet="VIETSACH" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="QLBANSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -435,7 +453,18 @@
             <End Role="TACGIA" EntitySet="TACGIA" />
             <End Role="VIETSACH" EntitySet="VIETSACH" />
           </AssociationSet>
+          <EntitySet Name="admin" EntityType="QLBANSACHModel.admin" />
         </EntityContainer>
+        <EntityType Name="admin">
+          <Key>
+            <PropertyRef Name="usernameAd" />
+            <PropertyRef Name="passwordAd" />
+            <PropertyRef Name="name" />
+          </Key>
+          <Property Name="usernameAd" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="passwordAd" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -529,6 +558,15 @@
                 <ScalarProperty Name="Masach" ColumnName="Masach" />
                 <ScalarProperty Name="Vaitro" ColumnName="Vaitro" />
                 <ScalarProperty Name="Vitri" ColumnName="Vitri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="admin">
+            <EntityTypeMapping TypeName="QLBANSACHModel.admin">
+              <MappingFragment StoreEntitySet="admin">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="passwordAd" ColumnName="passwordAd" />
+                <ScalarProperty Name="usernameAd" ColumnName="usernameAd" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

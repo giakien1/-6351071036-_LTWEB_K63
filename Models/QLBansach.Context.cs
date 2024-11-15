@@ -33,5 +33,6 @@ namespace BookStore.Models
         public DbSet<SACH> SACH { get; set; }
         public DbSet<TACGIA> TACGIA { get; set; }
         public DbSet<VIETSACH> VIETSACH { get; set; }
+        public DbSet<admin> admin { get; set; }
     }
 }

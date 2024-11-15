@@ -91,5 +91,14 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="admin">
+      <EntityTypeMapping TypeName="QLBANSACHModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="passwordAd" ColumnName="passwordAd" />
+          <ScalarProperty Name="usernameAd" ColumnName="usernameAd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

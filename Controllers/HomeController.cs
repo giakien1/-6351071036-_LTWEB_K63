@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using PagedList;
+using PagedList.Mvc;
+using System.Web.UI;
+
 namespace BookStore.Models
 {
    
@@ -18,10 +22,14 @@ namespace BookStore.Models
         }
 
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
-            var newestBook = _context.SACH.OrderByDescending(s => s.Ngaycapnhat).Take(5).ToList();
-            return View(newestBook);
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+
+            var sach = _context.SACH.OrderBy(s => s.Masach).ToPagedList(pageNumber, pageSize);
+
+            return View(sach);
         }
 
         public ActionResult Categories()
